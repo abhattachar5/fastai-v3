@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1MSIE3cogOJt64EBrf6Qdj4Xj-hkpRueK?alt=media&key=AIzaSyBULvERuB6KDNoaoPxddWDrKtuw1WhnX2o'
-export_file_name = 'export.pkl'
+export_file_name = 'Kaggle_Gender_Classifier2_128_CustomVGG_100epochs_09012020.h5'
 
 classes = ['Male', 'Female']
 path = Path(__file__).parent
